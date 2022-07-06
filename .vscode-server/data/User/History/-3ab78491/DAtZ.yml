@@ -1,0 +1,20 @@
+version: "3.2"
+services:
+        app_container:
+                image: "app_image:latest"
+                container_name: app_container
+                ports: 
+                  - 5000
+                restart: always
+                
+        nginx_container:
+                image: "nginx:alpine"
+                container_name: nginx_container
+                ports: 
+                  - 80
+                volumes:
+                  - type: bind
+                    source: ./nginx/nginx.conf
+                    target: /etc/nginx/nginx.conf
+         
+        

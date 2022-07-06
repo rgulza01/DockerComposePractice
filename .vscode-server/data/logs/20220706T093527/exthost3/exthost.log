@@ -1,0 +1,14 @@
+[2022-07-06 09:36:47.794] [exthost] [info] Extension host with pid 16007 started
+[2022-07-06 09:36:47.880] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock': Lock acquired.
+[2022-07-06 09:36:47.909] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-06 09:36:47.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-06 09:36:47.925] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-06 09:36:48.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-06 09:36:48.172] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-06 09:36:48.302] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 09:36:48.338] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 09:36:48.344] [exthost] [info] Eager extensions activated
+[2022-07-06 09:36:58.524] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+[2022-07-06 09:37:40.387] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-06 09:37:40.388] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-06 09:37:40.416] [exthost] [info] Extension host with pid 16007 exiting with code 0

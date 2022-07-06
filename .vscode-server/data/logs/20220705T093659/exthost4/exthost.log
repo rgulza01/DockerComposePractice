@@ -1,0 +1,13 @@
+[2022-07-05 13:46:15.677] [exthost] [info] Extension host with pid 25752 started
+[2022-07-05 13:46:15.689] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/1f803f2ae13fe013f7cdd401d9f18e12/vscode.lock': Lock acquired.
+[2022-07-05 13:46:15.788] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-05 13:46:15.805] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-05 13:46:15.815] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-05 13:46:15.913] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-05 13:46:15.977] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-05 13:46:16.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-05 13:46:16.109] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-05 13:46:16.113] [exthost] [info] Eager extensions activated
+[2022-07-05 15:34:37.415] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2022-07-05 15:34:37.416] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/1f803f2ae13fe013f7cdd401d9f18e12/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-05 15:34:37.420] [exthost] [info] Extension host with pid 25752 exiting with code 0

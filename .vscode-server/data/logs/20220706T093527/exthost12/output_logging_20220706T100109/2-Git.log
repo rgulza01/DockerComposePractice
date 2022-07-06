@@ -1,0 +1,15 @@
+[2022-07-06T10:01:11.188Z] Validating found git in: git
+[2022-07-06T10:01:11.491Z] Using git 2.25.1 from git
+[2022-07-06T10:01:11.623Z] > git rev-parse --show-toplevel [86ms]
+[2022-07-06T10:01:11.666Z] > git rev-parse --git-dir --git-common-dir [25ms]
+[2022-07-06T10:01:11.691Z] Open repository: /home/radiagulzan/duo-task
+[2022-07-06T10:01:11.784Z] > git status -z -uall [62ms]
+[2022-07-06T10:01:11.813Z] > git symbolic-ref --short HEAD [11ms]
+[2022-07-06T10:01:11.838Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+[2022-07-06T10:01:11.878Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+[2022-07-06T10:01:11.885Z] > git remote --verbose [15ms]
+[2022-07-06T10:01:11.918Z] > git config --get commit.template [4ms]
+[2022-07-06T10:01:12.320Z] > git show --textconv :nginx.conf [9ms]
+[2022-07-06T10:01:12.323Z] > git ls-files --stage -- /home/radiagulzan/duo-task/nginx.conf [5ms]
+[2022-07-06T10:01:12.330Z] > git cat-file -s 7211f007680a6b2918d94a3b6f6831455c20ed10 [2ms]
+[2022-07-06T10:01:12.478Z] > git check-ignore -v -z --stdin [2ms]

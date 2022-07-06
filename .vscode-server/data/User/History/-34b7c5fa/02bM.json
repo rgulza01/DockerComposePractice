@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "Earthbound - Fire Spring",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "security.workspace.trust.untrustedFiles": "open"
+}

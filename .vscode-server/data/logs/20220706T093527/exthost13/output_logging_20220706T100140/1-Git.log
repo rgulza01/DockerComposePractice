@@ -1,0 +1,15 @@
+[2022-07-06T10:01:41.061Z] Validating found git in: git
+[2022-07-06T10:01:41.110Z] Using git 2.25.1 from git
+[2022-07-06T10:01:41.161Z] > git rev-parse --show-toplevel [40ms]
+[2022-07-06T10:01:41.193Z] > git rev-parse --git-dir --git-common-dir [24ms]
+[2022-07-06T10:01:41.213Z] Open repository: /home/radiagulzan/trio-task
+[2022-07-06T10:01:41.242Z] > git status -z -uall [5ms]
+[2022-07-06T10:01:41.324Z] > git symbolic-ref --short HEAD [75ms]
+[2022-07-06T10:01:41.337Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+[2022-07-06T10:01:41.353Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-07-06T10:01:41.355Z] > git remote --verbose [8ms]
+[2022-07-06T10:01:41.385Z] > git config --get commit.template [11ms]
+[2022-07-06T10:01:41.703Z] > git show --textconv :nginx/nginx.conf [7ms]
+[2022-07-06T10:01:41.707Z] > git ls-files --stage -- /home/radiagulzan/trio-task/nginx/nginx.conf [5ms]
+[2022-07-06T10:01:41.714Z] > git cat-file -s 326e3d5fe258e623b9014ecb0f070cde2509059f [2ms]
+[2022-07-06T10:01:41.842Z] > git check-ignore -v -z --stdin [2ms]

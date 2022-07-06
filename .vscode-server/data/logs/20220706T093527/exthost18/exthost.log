@@ -1,0 +1,15 @@
+[2022-07-06 10:35:55.020] [exthost] [info] Extension host with pid 19629 started
+[2022-07-06 10:35:55.038] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock': Lock acquired.
+[2022-07-06 10:35:55.178] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-06 10:35:55.196] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-06 10:35:55.224] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-06 10:35:55.300] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2022-07-06 10:35:55.418] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-06 10:35:55.503] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-06 10:35:55.629] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 10:35:55.668] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 10:35:55.673] [exthost] [info] Eager extensions activated
+[2022-07-06 10:37:40.493] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+[2022-07-06 10:42:40.983] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-06 10:42:40.983] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-06 10:42:41.010] [exthost] [info] Extension host with pid 19629 exiting with code 0

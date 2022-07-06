@@ -1,0 +1,21 @@
+version: "3.2"
+services:
+        mysql_container:
+                image: "mysql:latest"
+                restart: always
+                environment:
+                  MYSQL_DATABASE: "db"
+                  MYSQL_USER: "radiagulzan@db-relationship-practice-mysql"
+                  MYSQL_PASSWORD: "Password123!"
+                  MYSQL_ROOT_PASSWORD: "Password123!"
+
+        nginx_container:
+                image: "nginx:alpine"
+                ports: 
+                  - 80
+                volumes:
+                  - type: bind
+                    source: nginx/nginx.conf
+                    target: /etc/nginx/nginx.conf
+         
+        

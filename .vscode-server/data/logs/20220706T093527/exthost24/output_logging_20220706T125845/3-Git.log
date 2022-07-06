@@ -1,0 +1,19 @@
+[2022-07-06T12:58:46.899Z] Validating found git in: git
+[2022-07-06T12:58:47.064Z] Using git 2.25.1 from git
+[2022-07-06T12:58:47.170Z] > git rev-parse --show-toplevel [92ms]
+[2022-07-06T12:58:47.170Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T12:58:47.195Z] > git rev-parse --show-toplevel [14ms]
+[2022-07-06T12:58:47.195Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T12:58:47.211Z] > git rev-parse --show-toplevel [8ms]
+[2022-07-06T12:58:47.224Z] > git rev-parse --git-dir --git-common-dir [7ms]
+[2022-07-06T12:58:47.234Z] Open repository: /home/radiagulzan/docker_compose_learning/dbRelationshipPractice
+[2022-07-06T12:58:47.300Z] > git rev-parse --show-toplevel [52ms]
+[2022-07-06T12:58:47.300Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T12:58:47.605Z] > git status -z -uall [362ms]
+[2022-07-06T12:58:47.621Z] > git symbolic-ref --short HEAD [8ms]
+[2022-07-06T12:58:47.633Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+[2022-07-06T12:58:47.652Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-07-06T12:58:47.655Z] > git remote --verbose [5ms]
+[2022-07-06T12:58:47.691Z] > git config --get commit.template [14ms]
+[2022-07-06T12:58:47.897Z] > git check-ignore -v -z --stdin [3ms]
+[2022-07-06T13:09:01.975Z] > git check-ignore -v -z --stdin [4ms]

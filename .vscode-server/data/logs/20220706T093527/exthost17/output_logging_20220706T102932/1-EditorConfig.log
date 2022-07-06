@@ -1,0 +1,18 @@
+Initializing document watcher...
+trio-task/db/Dockerfile: {}
+trio-task/nginx/nginx.conf: {}
+trio-task/db/CreateTable.sql: {}
+trio-task/db/Dockerfile: {}
+trio-task/flask-app/app.py: {}
+trio-task/db/CreateTable.sql: {}
+trio-task/flask-app/app.py: {}
+trio-task/db/CreateTable.sql: {}
+trio-task/db/Dockerfile: {}
+trio-task/flask-app/app.py: {}
+trio-task/flask-app/app.py: {}
+trio-task/db/CreateTable.sql: {}
+trio-task/db/CreateTable.sql: {}
+trio-task/db/CreateTable.sql: {}
+trio-task/db/CreateTable.sql: {}
+trio-task/flask-app/app.py: {}
+trio-task/flask-app/app.py: {}

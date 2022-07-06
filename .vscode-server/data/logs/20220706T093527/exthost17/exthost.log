@@ -1,0 +1,15 @@
+[2022-07-06 10:29:32.253] [exthost] [info] Extension host with pid 19352 started
+[2022-07-06 10:29:32.299] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6da32848516970e9a51e4e9837f968c8/vscode.lock': Lock acquired.
+[2022-07-06 10:29:32.388] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-06 10:29:32.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-06 10:29:32.421] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-06 10:29:32.477] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2022-07-06 10:29:32.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-06 10:29:32.736] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-06 10:29:32.881] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 10:29:32.918] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 10:29:32.925] [exthost] [info] Eager extensions activated
+[2022-07-06 10:29:34.796] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+[2022-07-06 10:35:46.805] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-06 10:35:46.806] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6da32848516970e9a51e4e9837f968c8/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-06 10:35:46.850] [exthost] [info] Extension host with pid 19352 exiting with code 0

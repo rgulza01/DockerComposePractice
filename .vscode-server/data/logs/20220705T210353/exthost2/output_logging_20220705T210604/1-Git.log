@@ -1,0 +1,15 @@
+[2022-07-05T21:06:06.897Z] Validating found git in: git
+[2022-07-05T21:06:06.949Z] Using git 2.25.1 from git
+[2022-07-05T21:06:06.998Z] > git rev-parse --show-toplevel [38ms]
+[2022-07-05T21:06:07.010Z] > git rev-parse --git-dir --git-common-dir [2ms]
+[2022-07-05T21:06:07.018Z] Open repository: /home/radiagulzan/duo-task
+[2022-07-05T21:06:07.056Z] > git status -z -uall [29ms]
+[2022-07-05T21:06:07.069Z] > git symbolic-ref --short HEAD [7ms]
+[2022-07-05T21:06:07.089Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+[2022-07-05T21:06:07.101Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-07-05T21:06:07.106Z] > git remote --verbose [6ms]
+[2022-07-05T21:06:07.122Z] > git config --get commit.template [7ms]
+[2022-07-05T21:06:07.559Z] > git check-ignore -v -z --stdin [2ms]
+[2022-07-05T21:06:10.574Z] > git ls-files --stage -- /home/radiagulzan/duo-task/Dockerfile [6ms]
+[2022-07-05T21:06:10.580Z] > git cat-file -s 59183c098286c1abf3bb57bd9f2f454426647482 [2ms]
+[2022-07-05T21:06:10.593Z] > git show --textconv :Dockerfile [32ms]

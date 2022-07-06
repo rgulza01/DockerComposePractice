@@ -1,0 +1,124 @@
+[2022-07-06T10:45:52.204Z] Validating found git in: git
+[2022-07-06T10:45:52.372Z] Using git 2.25.1 from git
+[2022-07-06T10:45:52.443Z] > git rev-parse --show-toplevel [51ms]
+[2022-07-06T10:45:52.444Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T10:45:52.474Z] > git rev-parse --show-toplevel [8ms]
+[2022-07-06T10:45:52.474Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T10:45:52.492Z] > git rev-parse --show-toplevel [11ms]
+[2022-07-06T10:45:52.535Z] > git rev-parse --git-dir --git-common-dir [38ms]
+[2022-07-06T10:45:52.545Z] Open repository: /home/radiagulzan/docker_compose_learning/dbRelationshipPractice
+[2022-07-06T10:45:52.576Z] > git rev-parse --show-toplevel [15ms]
+[2022-07-06T10:45:52.576Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T10:45:52.849Z] > git status -z -uall [295ms]
+[2022-07-06T10:45:52.858Z] > git symbolic-ref --short HEAD [3ms]
+[2022-07-06T10:45:52.865Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-07-06T10:45:52.878Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-07-06T10:45:52.880Z] > git remote --verbose [4ms]
+[2022-07-06T10:45:52.893Z] > git config --get commit.template [2ms]
+[2022-07-06T10:45:53.202Z] > git check-ignore -v -z --stdin [2ms]
+[2022-07-06T10:46:15.440Z] > git check-ignore -v -z --stdin [3ms]
+[2022-07-06T10:47:09.546Z] > git rev-parse --show-toplevel [5ms]
+[2022-07-06T10:47:09.546Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T10:47:11.293Z] > git show --textconv :app.py [8ms]
+[2022-07-06T10:47:11.297Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [5ms]
+[2022-07-06T10:47:11.304Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T10:47:11.756Z] > git rev-parse --show-toplevel [7ms]
+[2022-07-06T10:47:11.756Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T10:47:13.506Z] > git show --textconv :app.py [10ms]
+[2022-07-06T10:47:13.510Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [5ms]
+[2022-07-06T10:47:13.517Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T10:47:14.068Z] > git rev-parse --show-toplevel [16ms]
+[2022-07-06T10:47:14.068Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T10:47:14.747Z] > git rev-parse --show-toplevel [5ms]
+[2022-07-06T10:47:14.747Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T10:52:51.100Z] > git show --textconv :Dockerfile [7ms]
+[2022-07-06T10:52:51.106Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/Dockerfile [7ms]
+[2022-07-06T10:52:51.118Z] > git cat-file -s 5356c052f49c54f694a403f5f3d7ef56c0bbf5f3 [4ms]
+[2022-07-06T10:53:12.702Z] > git show --textconv :app.py [6ms]
+[2022-07-06T10:53:12.706Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [4ms]
+[2022-07-06T10:53:12.712Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T10:54:21.205Z] > git show --textconv :create.py [7ms]
+[2022-07-06T10:54:21.209Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/create.py [5ms]
+[2022-07-06T10:54:21.217Z] > git cat-file -s 069f8e237139d9798123769a5327b0b6a1428c8e [4ms]
+[2022-07-06T10:55:20.902Z] > git show --textconv :app.py [8ms]
+[2022-07-06T10:55:20.906Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [5ms]
+[2022-07-06T10:55:20.912Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T10:55:38.026Z] > git show --textconv :create.py [9ms]
+[2022-07-06T10:55:38.029Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/create.py [4ms]
+[2022-07-06T10:55:38.036Z] > git cat-file -s 069f8e237139d9798123769a5327b0b6a1428c8e [2ms]
+[2022-07-06T10:55:47.095Z] > git show --textconv :app.py [7ms]
+[2022-07-06T10:55:47.098Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [4ms]
+[2022-07-06T10:55:47.103Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T10:55:48.346Z] > git show --textconv :Dockerfile [7ms]
+[2022-07-06T10:55:48.350Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/Dockerfile [4ms]
+[2022-07-06T10:55:48.356Z] > git cat-file -s 5356c052f49c54f694a403f5f3d7ef56c0bbf5f3 [2ms]
+[2022-07-06T11:01:14.254Z] > git show --textconv :app.py [7ms]
+[2022-07-06T11:01:14.258Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [4ms]
+[2022-07-06T11:01:14.263Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T11:01:18.460Z] > git show --textconv :Dockerfile [8ms]
+[2022-07-06T11:01:18.463Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/Dockerfile [5ms]
+[2022-07-06T11:01:18.469Z] > git cat-file -s 5356c052f49c54f694a403f5f3d7ef56c0bbf5f3 [1ms]
+[2022-07-06T11:01:56.385Z] > git show --textconv :app.py [7ms]
+[2022-07-06T11:01:56.391Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [6ms]
+[2022-07-06T11:01:56.397Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T11:04:15.732Z] > git rev-parse --show-toplevel [8ms]
+[2022-07-06T11:04:15.732Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:04:27.628Z] > git show --textconv :app.py [8ms]
+[2022-07-06T11:04:27.633Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [4ms]
+[2022-07-06T11:04:27.639Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T11:04:56.265Z] > git rev-parse --show-toplevel [7ms]
+[2022-07-06T11:04:56.265Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:05:56.980Z] > git show --textconv :app.py [7ms]
+[2022-07-06T11:05:56.983Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [4ms]
+[2022-07-06T11:05:56.989Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T11:06:09.118Z] > git rev-parse --show-toplevel [32ms]
+[2022-07-06T11:06:09.118Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:06:31.999Z] > git rev-parse --show-toplevel [6ms]
+[2022-07-06T11:06:31.999Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:06:45.937Z] > git rev-parse --show-toplevel [6ms]
+[2022-07-06T11:06:45.937Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:07:01.272Z] > git show --textconv :app.py [7ms]
+[2022-07-06T11:07:01.276Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [4ms]
+[2022-07-06T11:07:01.283Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T11:07:09.625Z] > git rev-parse --show-toplevel [6ms]
+[2022-07-06T11:07:09.625Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:07:24.416Z] > git show --textconv :app.py [7ms]
+[2022-07-06T11:07:24.421Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [6ms]
+[2022-07-06T11:07:24.427Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T11:07:44.201Z] > git rev-parse --show-toplevel [7ms]
+[2022-07-06T11:07:44.201Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:08:45.230Z] > git rev-parse --show-toplevel [4ms]
+[2022-07-06T11:08:45.230Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:08:49.409Z] > git rev-parse --show-toplevel [5ms]
+[2022-07-06T11:08:49.409Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:18:52.226Z] > git show --textconv :app.py [8ms]
+[2022-07-06T11:18:52.229Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [4ms]
+[2022-07-06T11:18:52.235Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T11:19:05.525Z] > git status -z -uall [110ms]
+[2022-07-06T11:19:05.533Z] > git symbolic-ref --short HEAD [2ms]
+[2022-07-06T11:19:05.541Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+[2022-07-06T11:19:05.556Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-07-06T11:19:05.559Z] > git remote --verbose [4ms]
+[2022-07-06T11:19:05.572Z] > git config --get commit.template [2ms]
+[2022-07-06T11:19:07.712Z] > git show --textconv :create.py [9ms]
+[2022-07-06T11:19:07.716Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/create.py [6ms]
+[2022-07-06T11:19:07.723Z] > git cat-file -s 069f8e237139d9798123769a5327b0b6a1428c8e [2ms]
+[2022-07-06T11:19:08.970Z] > git show --textconv :app.py [7ms]
+[2022-07-06T11:19:08.974Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/app.py [4ms]
+[2022-07-06T11:19:08.980Z] > git cat-file -s d06cdcdc70877ec74954e747c7e056628fafb8b8 [2ms]
+[2022-07-06T11:19:13.846Z] > git show --textconv :Dockerfile [7ms]
+[2022-07-06T11:19:13.849Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/Dockerfile [4ms]
+[2022-07-06T11:19:13.854Z] > git cat-file -s 5356c052f49c54f694a403f5f3d7ef56c0bbf5f3 [1ms]
+[2022-07-06T11:19:18.191Z] > git rev-parse --show-toplevel [8ms]
+[2022-07-06T11:19:18.191Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:19:18.580Z] > git rev-parse --show-toplevel [10ms]
+[2022-07-06T11:19:18.580Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:19:22.532Z] > git show --textconv :requirements.txt [15ms]
+[2022-07-06T11:19:22.541Z] > git ls-files --stage -- /home/radiagulzan/docker_compose_learning/dbRelationshipPractice/requirements.txt [10ms]
+[2022-07-06T11:19:22.555Z] > git cat-file -s fa1501ebb504db4055b055476c28c10882d1ce04 [6ms]
+[2022-07-06T11:19:29.031Z] > git rev-parse --show-toplevel [5ms]
+[2022-07-06T11:19:29.031Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:19:29.268Z] > git rev-parse --show-toplevel [5ms]
+[2022-07-06T11:19:29.268Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-07-06T11:20:17.330Z] > git rev-parse --show-toplevel [5ms]
+[2022-07-06T11:20:17.330Z] fatal: not a git repository (or any of the parent directories): .git

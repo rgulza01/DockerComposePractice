@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Solarized-light-fjs",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 2
+}

@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Earthbound - Devil's Machine",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 3
+}

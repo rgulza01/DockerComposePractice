@@ -1,0 +1,17 @@
+[2022-07-06 09:43:07.492] [exthost] [info] Extension host with pid 16859 started
+[2022-07-06 09:43:07.535] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6da32848516970e9a51e4e9837f968c8/vscode.lock': Lock acquired.
+[2022-07-06 09:43:07.636] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-07-06 09:43:07.662] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-07-06 09:43:07.738] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-06 09:43:07.743] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-06 09:43:07.761] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-06 09:43:07.861] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-06 09:43:08.003] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-06 09:43:08.188] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-07-06 09:43:08.281] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 09:43:08.305] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 09:43:08.310] [exthost] [info] Eager extensions activated
+[2022-07-06 09:43:22.453] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+[2022-07-06 09:47:16.707] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-06 09:47:16.708] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6da32848516970e9a51e4e9837f968c8/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-06 09:47:16.737] [exthost] [info] Extension host with pid 16859 exiting with code 0

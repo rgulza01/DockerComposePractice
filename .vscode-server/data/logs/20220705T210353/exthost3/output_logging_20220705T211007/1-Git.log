@@ -1,0 +1,15 @@
+[2022-07-05T21:10:08.286Z] Validating found git in: git
+[2022-07-05T21:10:08.335Z] Using git 2.25.1 from git
+[2022-07-05T21:10:08.385Z] > git rev-parse --show-toplevel [40ms]
+[2022-07-05T21:10:08.421Z] > git rev-parse --git-dir --git-common-dir [27ms]
+[2022-07-05T21:10:08.431Z] Open repository: /home/radiagulzan/trio-task
+[2022-07-05T21:10:08.444Z] > git status -z -uall [5ms]
+[2022-07-05T21:10:08.451Z] > git symbolic-ref --short HEAD [4ms]
+[2022-07-05T21:10:08.457Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-07-05T21:10:08.469Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-07-05T21:10:08.472Z] > git remote --verbose [7ms]
+[2022-07-05T21:10:08.499Z] > git config --get commit.template [19ms]
+[2022-07-05T21:10:09.056Z] > git check-ignore -v -z --stdin [2ms]
+[2022-07-05T21:10:14.673Z] > git show --textconv :README.md [101ms]
+[2022-07-05T21:10:14.673Z] > git ls-files --stage -- /home/radiagulzan/trio-task/README.md [95ms]
+[2022-07-05T21:10:14.683Z] > git cat-file -s f15f0f8729c967b525a9e2a9bd5a5dc1b3e13375 [5ms]

@@ -1,0 +1,18 @@
+[2022-07-06 11:24:37.082] [exthost] [info] Extension host with pid 21049 started
+[2022-07-06 11:24:37.195] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock': Lock acquired.
+[2022-07-06 11:24:37.272] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+[2022-07-06 11:24:37.826] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-06 11:24:37.831] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-06 11:24:37.841] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-06 11:24:37.877] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2022-07-06 11:24:38.149] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-06 11:24:38.237] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-06 11:24:38.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 11:24:38.846] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 11:24:38.853] [exthost] [info] Eager extensions activated
+[2022-07-06 11:33:08.339] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-06 11:33:08.348] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-06 11:33:08.433] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-07-06 13:03:44.406] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2022-07-06 13:03:44.407] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-07-06 13:03:44.431] [exthost] [info] Extension host with pid 21049 exiting with code 0

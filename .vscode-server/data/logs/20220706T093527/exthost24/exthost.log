@@ -1,0 +1,15 @@
+[2022-07-06 12:58:45.550] [exthost] [info] Extension host with pid 24586 started
+[2022-07-06 12:58:45.554] [exthost] [error] Error: EEXIST: file already exists, open '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock'
+[2022-07-06 12:58:45.563] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-07-06 12:58:45.568] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb/vscode.lock': The lock does not look stale, elapsed: 792 ms, giving up.
+[2022-07-06 12:58:45.579] [exthost] [info] Lock '/home/radiagulzan/.vscode-server/data/User/workspaceStorage/6b97fb254c6e0902699b9bb3517d1feb-1/vscode.lock': Lock acquired.
+[2022-07-06 12:58:45.657] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+[2022-07-06 12:58:46.186] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-06 12:58:46.195] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-06 12:58:46.200] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-06 12:58:46.233] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2022-07-06 12:58:46.442] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-06 12:58:46.528] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-06 12:58:47.083] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 12:58:47.108] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-06 12:58:47.114] [exthost] [info] Eager extensions activated

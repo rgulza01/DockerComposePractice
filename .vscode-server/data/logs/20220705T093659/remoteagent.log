@@ -1,0 +1,53 @@
+[2022-07-05 09:36:59.288] [remoteagent] [info] Extension host agent started.
+[2022-07-05 09:36:59.426] [remoteagent] [info] [127.0.0.1][34e2eb19][ManagementConnection] New connection established.
+[2022-07-05 09:36:59.474] [remoteagent] [info] [127.0.0.1][271165d2][ExtensionHostConnection] New connection established.
+[2022-07-05 09:36:59.477] [remoteagent] [info] [127.0.0.1][271165d2][ExtensionHostConnection] <2082> Launched Extension Host Process.
+[2022-07-05 09:38:33.679] [remoteagent] [info] [127.0.0.1][34e2eb19][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-07-05 09:38:33.689] [remoteagent] [info] [127.0.0.1][271165d2][ExtensionHostConnection] <2082> Extension Host Process exited with code: 0, signal: null.
+[2022-07-05 09:38:33.689] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-05 09:38:40.379] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-05 09:38:40.379] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-05 09:38:40.600] [remoteagent] [info] [127.0.0.1][990b8b9b][ManagementConnection] New connection established.
+[2022-07-05 09:38:40.692] [remoteagent] [info] [127.0.0.1][05d96941][ExtensionHostConnection] New connection established.
+[2022-07-05 09:38:40.701] [remoteagent] [info] [127.0.0.1][05d96941][ExtensionHostConnection] <2262> Launched Extension Host Process.
+[2022-07-05 09:43:40.380] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-07-05 10:29:44.907] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: std::bad_alloc (EUNKNOWN) (path: /home/radiagulzan)
+[2022-07-05 10:29:44.907] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: std::bad_alloc
+[2022-07-05 10:29:45.026] [remoteagent] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[2022-07-05 10:31:45.884] [remoteagent] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[2022-07-05 10:31:46.003] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
+[2022-07-05 12:05:12.418] [remoteagent] [info] [127.0.0.1][05d96941][ExtensionHostConnection] The client has reconnected.
+[2022-07-05 12:05:17.169] [remoteagent] [info] [127.0.0.1][990b8b9b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-05 12:05:17.170] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/radiagulzan/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2022-07-05 13:43:51.259] [remoteagent] [info] [127.0.0.1][990b8b9b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-05 13:43:51.260] [remoteagent] [info] [127.0.0.1][397b0444][ManagementConnection] New connection established.
+[2022-07-05 13:43:51.380] [remoteagent] [info] [127.0.0.1][aa1ba177][ExtensionHostConnection] New connection established.
+[2022-07-05 13:43:51.387] [remoteagent] [info] [127.0.0.1][aa1ba177][ExtensionHostConnection] <25452> Launched Extension Host Process.
+[2022-07-05 13:46:06.320] [remoteagent] [info] [127.0.0.1][397b0444][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-07-05 13:46:06.336] [remoteagent] [info] [127.0.0.1][aa1ba177][ExtensionHostConnection] <25452> Extension Host Process exited with code: 0, signal: null.
+[2022-07-05 13:46:14.748] [remoteagent] [info] [127.0.0.1][b9b825f2][ManagementConnection] New connection established.
+[2022-07-05 13:46:14.921] [remoteagent] [info] [127.0.0.1][f41b3e8d][ExtensionHostConnection] New connection established.
+[2022-07-05 13:46:14.957] [remoteagent] [info] [127.0.0.1][f41b3e8d][ExtensionHostConnection] <25752> Launched Extension Host Process.
+[2022-07-05 13:48:51.443] [remoteagent] [info] [127.0.0.1][990b8b9b][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-07-05 13:48:51.524] [remoteagent] [info] [127.0.0.1][05d96941][ExtensionHostConnection] <2262> Extension Host Process exited with code: 0, signal: null.
+[2022-07-05 14:22:54.146] [remoteagent] [info] [127.0.0.1][f41b3e8d][ExtensionHostConnection] The client has reconnected.
+[2022-07-05 15:29:37.319] [remoteagent] [info] [127.0.0.1][a700d13d][ManagementConnection] New connection established.
+[2022-07-05 15:29:37.479] [remoteagent] [info] [127.0.0.1][6a001500][ExtensionHostConnection] New connection established.
+[2022-07-05 15:29:37.485] [remoteagent] [info] [127.0.0.1][6a001500][ExtensionHostConnection] <26672> Launched Extension Host Process.
+[2022-07-05 15:29:37.964] [remoteagent] [info] [127.0.0.1][b9b825f2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-05 15:29:37.971] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/radiagulzan/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2022-07-05 15:30:24.035] [remoteagent] [info] [127.0.0.1][a700d13d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-07-05 15:30:24.046] [remoteagent] [info] [127.0.0.1][6a001500][ExtensionHostConnection] <26672> Extension Host Process exited with code: 0, signal: null.
+[2022-07-05 15:30:31.904] [remoteagent] [info] [127.0.0.1][b9b825f2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-05 15:30:31.904] [remoteagent] [info] [127.0.0.1][e218a065][ManagementConnection] New connection established.
+[2022-07-05 15:30:32.019] [remoteagent] [info] [127.0.0.1][72cb99ea][ExtensionHostConnection] New connection established.
+[2022-07-05 15:30:32.038] [remoteagent] [info] [127.0.0.1][72cb99ea][ExtensionHostConnection] <26896> Launched Extension Host Process.
+[2022-07-05 15:34:37.426] [remoteagent] [info] [127.0.0.1][f41b3e8d][ExtensionHostConnection] <25752> Extension Host Process exited with code: 0, signal: null.
+[2022-07-05 15:35:32.183] [remoteagent] [info] [127.0.0.1][b9b825f2][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-07-05 18:58:11.547] [remoteagent] [info] [127.0.0.1][72cb99ea][ExtensionHostConnection] <26896> Extension Host Process exited with code: 0, signal: null.
+[2022-07-05 18:58:11.547] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-05 19:03:11.548] [remoteagent] [info] Last EH closed, shutting down

@@ -1,0 +1,11 @@
+FROM python:3.8.10
+WORKDIR /app
+RUN pip install requirements.txt
+COPY . . 
+# Set YOUR_NAME environment variable
+
+
+EXPOSE 5500
+# Run 'python app.py' on container start-up. This is the main process.
+ENTRYPOINT ["python", "app.py"]
+
