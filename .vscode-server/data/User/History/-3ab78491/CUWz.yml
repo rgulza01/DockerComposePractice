@@ -10,9 +10,7 @@ services:
         nginx_container:
                 image: "nginx:alpine"
                 container_name: nginx_container
-                ports: 
-                  - target: 80
-                    protocol: tcp
+                ports: "80:80"
                 volumes:
                   - type: bind
                     source: ./nginx/nginx.conf

@@ -264,3 +264,61 @@ docker-compose ls
 docker-compose ps
 docker-compose -d up
 docker-compose up
+echo "# DockerComposePractice" >> README.md
+git init
+git add README.md
+git commit -m "Docker practice so far in VMDocker"
+git branch -M main
+git remote add origin https://github.com/rgulza01/DockerComposePractice.git
+git push -u origin main
+git remote add origin https://github.com/rgulza01/DockerComposePractice.git
+git push -u origin main
+git init
+git add .
+git remote -v
+git commit -m "VM docker content"
+git push git push origin master
+git push origin main
+ls
+cd docker_compose_learning
+ls
+cd dbRelationshipPractice
+ls
+git remote -v
+git init
+git add .
+git commit -m "changes in the dockerfile and requirementst.txt"
+git push origin main 
+cd .
+cd ..
+git remote -v
+ls
+cd dbRelationshipPractice
+git remote -v
+cd
+ls
+mkdir docker_volumes
+cd docker_volumes
+docker volume create webpage
+docker run -d -p 80:80 --name nginx --mount type=volume,source=webpage,target=/usr/share/nginx/html nginx
+docker exec -it nginx apt update
+docker exec -it nginx apt install -y nano
+docker exec -it nginx nano /usr/share/nginx/html/index.html
+docker stop nginx nginx2
+docker container ls
+docker ps -a
+docker rm nginx
+curl localhost:80
+curl localhost
+docker ps
+docker stop app_container nginx_container
+curl localhost:80
+docker ps
+docker run -d -p 80:80 --name nginx --volume webpage:/usr/share/nginx/html nginx
+curl localhost:80
+docker run -d -p 81:80 --name nginx2 --volume webpage:/usr/share/nginx/html nginx
+docker exec -it nginx2 apt update
+docker exec -it nginx2 apt install -y nano
+docker exec -it nginx2 nano /usr/share/nginx/html/index.html
+curl localhost:80
+docker run -d -p 81:80 --name nginx2 --volume webpage:/usr/share/nginx/html nginx

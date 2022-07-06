@@ -328,3 +328,31 @@ New EH opened, aborting shutdown
     at process.<anonymous> (/home/radiagulzan/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/server/node/server.main.js:143:7914)
     at process.emit (node:events:390:28)
 [13:03:44] [127.0.0.1][1abaf7e4][ExtensionHostConnection] <21049> Extension Host Process exited with code: 0, signal: null.
+[13:42:21] [127.0.0.1][3aa1c2d4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:42:21] [127.0.0.1][ef601c5e][ExtensionHostConnection] <24586> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[13:42:21] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:42:29] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:42:29] Cancelling previous shutdown timeout
+[13:42:29] [127.0.0.1][ab5ea5a6][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:42:29] [127.0.0.1][4b9ec72a][ManagementConnection] New connection established.
+[13:42:29] [127.0.0.1][a9b09fe4][ExtensionHostConnection] New connection established.
+[13:42:29] [127.0.0.1][a9b09fe4][ExtensionHostConnection] <25269> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[13:47:29] New EH opened, aborting shutdown
+[13:47:29] [127.0.0.1][ab5ea5a6][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[15:16:23] [127.0.0.1][4b9ec72a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:16:23] [127.0.0.1][a9b09fe4][ExtensionHostConnection] <25269> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[15:16:23] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[15:16:32] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[15:16:32] Cancelling previous shutdown timeout
+[15:16:32] [127.0.0.1][3e80a843][ManagementConnection] New connection established.
+[15:16:32] [127.0.0.1][7c2a4802][ExtensionHostConnection] New connection established.
+[15:16:32] [127.0.0.1][7c2a4802][ExtensionHostConnection] <27894> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[15:21:32] New EH opened, aborting shutdown
